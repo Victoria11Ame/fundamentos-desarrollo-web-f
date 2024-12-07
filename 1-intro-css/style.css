@@ -1,0 +1,47 @@
+body{
+background-color: rgb(127, 219, 255);
+}
+
+h1{
+color: rgb(51, 99, 255);
+}
+
+p{
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+    background-color:black;
+    color: rgb(252, 252, 252);
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 15px;
+}
+
+.ball{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: aliceblue;
+    border: 3px;
+}
+
+.text-important{
+font-size: 2rem;
+background-color: yellowgreen;
+font-style: oblique;
+}
+
+#tituloWeb{
+    font-family: "Playwrite HR Lijeva", cursive;
+ 
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
