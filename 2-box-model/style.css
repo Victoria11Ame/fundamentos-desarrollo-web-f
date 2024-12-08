@@ -9,8 +9,9 @@ body{
     background-color: rgb(231, 210, 117);
 }
 
+
 .card{
-    background-color: white;
+    background-color: white !important;
     margin: 100px auto;
     width: 430px;
     padding: 25px;
