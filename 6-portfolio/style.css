@@ -79,6 +79,7 @@ header{
     position: relative;
 /*     background-color: darkred;
  */    flex: 1;
+    overflow: hidden;
 }
 
 .img-pizza, .img-hoja, .img-tomato{
@@ -208,4 +209,46 @@ header{
     padding: 10px;
     border-radius: 50%;
     cursor: pointer;
+}
+
+
+
+/* PRIMER BREAKPOINT (TABLET) */
+@media screen and (max-width: 800px){
+    body{
+     /*    background-color: tomato; */
+    } */
+    .welcome-content{
+        flex-direction: column-reverse;
+    }
+    .col-2 {
+        background-color: rgb(73, 19, 123) !important;
+        flex: none;
+        height: 300px;
+    }
+    .img-pizza, .img-hoja, .img-tomato {
+        width: 230px;
+    }
+    .productos-content {
+        flex-wrap: wrap;
+    }
+    .product-card {
+        flex: none;
+        width: 49%;
+    }
+
+}
+
+
+
+/* SEGUNDO BREAKPOINT (MOBILE)*/
+@media screen and (max-width: 576px){
+    body{
+        /* background-color: blueviolet; */
+    }
+    .product-card {
+        flex: none;
+        width: 90%;
+        margin: auto;
+    }
 }
